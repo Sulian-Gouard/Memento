@@ -85,12 +85,13 @@ a:hover {
 /* BODY */
 
 img {
-    width: 100%;
+    width: 80%;
+    
 }
 .paragraph {
     grid-column: 2 / 4;
     grid-row: 2 / 3;
-    margin-left: 2rem;
+    margin-right: 2rem;
 
 }
 
