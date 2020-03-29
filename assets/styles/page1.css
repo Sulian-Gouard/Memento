@@ -3,6 +3,8 @@ html {
 
 }
 
+/* LIENS */
+
 a {
     text-decoration: none;
 }
@@ -19,12 +21,16 @@ a:hover {
     color: #2c555e;
 }
 
+/* GRID */
+
 .container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 10px;
-    grid-template-rows: auto;
+    grid-template-rows: repeat(5, 0.2fr);
 }
+
+/* HEADER */
 
 .logo {
     font-family: 'Roboto Slab', serif;
@@ -32,17 +38,14 @@ a:hover {
     font-size: 1.25rem;
     grid-column: 2 / 4;
     grid-row: 1 / 1;
-    margin: 0 0 0 2rem;
     color: #4e92a2;
 
 }
-
 
 .deco {
     color:
         #c8cc96;
 }
-
 
 .navigation {
     grid-column: 4 / 6;
@@ -69,8 +72,7 @@ a:hover {
 }
 
 .lignone {
-    margin-left: 2rem;
-    margin-right: 0.5rem;
+    
     grid-column: 2 / 6;
     grid-row: 1 / 3;
     border-top: 1px solid #4e92a2;
@@ -79,3 +81,38 @@ a:hover {
     font-family: 'Lora', serif;
     font-size: 0.8rem;
 }
+
+/* BODY */
+
+img {
+    width: 100%;
+}
+.paragraph {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    margin-left: 2rem;
+
+}
+
+.paragraphtwo {
+    grid-column: 4 / 6;
+    grid-row: 2 / 2;
+    margin-left: 2rem;
+
+}
+h2 {
+    font-family: 'Lora', serif;
+    font-weight: 800;
+    color: #4e92a2;
+    border-bottom: 0.4rem solid #c8cc96;
+    border-radius: 0.4em;
+}
+p {
+    font-family: 'Lora', serif;
+    font-size: 0.85rem;
+    text-align: justify;
+}
+.balise {
+    font-weight: bold;
+}
+

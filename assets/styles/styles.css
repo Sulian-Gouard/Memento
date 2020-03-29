@@ -23,7 +23,7 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 10px;
-    grid-template-rows: auto;
+    grid-template-rows: repeat(5, 0.2fr);
 }
 
 .logo {
@@ -32,7 +32,7 @@ a:hover {
     font-size: 1.25rem;
     grid-column: 2 / 4;
     grid-row: 1 / 1;
-    margin: 0 0 0 2rem;
+    
     color: #4e92a2;
 
 }
@@ -70,14 +70,10 @@ a:hover {
 }
 
 .lignone {
-    margin-left: 2rem;
-    margin-right: 0.5rem;
     grid-column: 2 / 6;
     grid-row: 1 / 3;
     border-top: 1px solid #4e92a2;
-    border-bottom: 1px solid #4e92a2;
     margin-top: 5.5rem;
-    margin-bottom: 4.5rem;
     border-width: 0.1rem;
     font-family: 'Lora', serif;
     font-size: 0.8rem;
